@@ -22,27 +22,27 @@ import calc.java.calculator;
 		}
 
 		@Test
-		public void Test_ADDOP_TwoPosNum() {
-			
+		public void testAdd_BothNumbersArePositive_ShouldReturnPositiveNumber() {
+			//Arrange
 			int a = 12;
 			int b = 13;
 			calculator calc = new calculator();
-			
+			//Act
 			int result = calc.add(a, b);
-			
+			//Assert
 			Assert.assertTrue(result > 0);
 		}
 
 
 		@Test
-		public void Test_ADDOP_TwoNegNum() {
-
+		public void testAdd_BothNumbersAreNegative_ShouldReturnNegativeNumber() {
+           //Arrange
 			int a = -12;
 			int b = -13;
 			calculator calc = new calculator();
-			
+			//Act
 			int result = calc.add(a, b);
-			
+			//Assert
 			Assert.assertTrue(result < 0);
 		}
 	}
