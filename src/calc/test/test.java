@@ -13,7 +13,7 @@ import calc.java.calculator;
 	
 	public class test {
 		@Test
-		public void test() {
+		public void testing() {
 			calculator calc = new calculator();
 			assertEquals(725, calc.add(722, 3));
 			assertEquals(725, calc.sub(728, 3));
