@@ -23,26 +23,26 @@ import calc.java.calculator;
 
 		@Test
 		public void Test_ADDOP_TwoPosNum() {
-			// Arrange
+			
 			int a = 12;
 			int b = 13;
 			calculator calc = new calculator();
-			// Act
+			
 			int result = calc.add(a, b);
-			// Assert
+			
 			Assert.assertTrue(result > 0);
 		}
 
 
 		@Test
 		public void Test_ADDOP_TwoNegNum() {
-			// Arrange
+
 			int a = -12;
 			int b = -13;
 			calculator calc = new calculator();
-			// Act
+			
 			int result = calc.add(a, b);
-			// Assert
+			
 			Assert.assertTrue(result < 0);
 		}
 	}
