@@ -11,9 +11,9 @@ import calc.java.calculator;
 	
 
 	
-	public class test {
+	public class Ctest {
 		@Test
-		public void testing() {
+		public void test() {
 			calculator calc = new calculator();
 			assertEquals(725, calc.add(722, 3));
 			assertEquals(725, calc.sub(728, 3));
